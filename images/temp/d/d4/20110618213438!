@@ -1,0 +1,17 @@
+function [A,D] = w_energy(C,L)
+   p =[];
+   p = sum(C.^2);
+  
+   [i,~] = size(L);
+   l = 1;
+   for count = 1:i-1
+       u=[];
+       u = sum(C(l:L(count,1)+l-1,1).^2);
+       l = L(count,1)+l;
+       D(count,1) = u*100/p;
+   end
+   A = D(1,1);
+   D = D';
+   
+   
+end
