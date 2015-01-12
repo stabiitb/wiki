@@ -93,8 +93,8 @@ $wgEmailAuthentication = true;
 $wgDBtype           = "mysql";
 $wgDBserver         = "localhost";
 $wgDBname           = "stabwiki";
-$wgDBuser           = "stabwiki";
-$wgDBpassword       = "<Stabiitb7@>";
+$wgDBuser           = "stab";
+$wgDBpassword       = "STABDatabase";
 
 # MySQL specific settings
 $wgDBprefix         = "mwiki_";
