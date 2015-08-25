@@ -32,6 +32,7 @@ require_once( "$IP/extensions/ParserFunctions/ParserFunctions.php" );
 require_once( "$IP/extensions/DeleteBatch/DeleteBatch.php" );
 #require_once( "$IP/extensions/WikiEditor/WikiEditor.php" );
 require_once( "$IP/extensions/NukeDPL/NukeDPL.php" );
+require_once( "$IP/extensions/GoogleAdSense/GoogleAdSense.php");
 # Enables use of WikiEditor by default but still allow users to disable it in preferences
 #$wgDefaultUserOptions['usebetatoolbar'] = 1;
 #$wgDefaultUserOptions['usebetatoolbar-cgd'] = 1;
@@ -269,4 +270,9 @@ $wgTexvc = "/resources/math/texvc";
 
 $wgShowSQLErrors = 1;
 
+
+//Google Ads
+$wgGoogleAdSenseClient = 'ca-pub-9539937655115229';
+$wgGoogleAdSenseSlot = '8864913199';
+$wgGoogleAdSenseID = 'wiki';
 ?>
